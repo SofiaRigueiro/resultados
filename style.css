@@ -7,7 +7,7 @@
 
 :root {
     font-size: 62.5%; 
-    --resultaso-bg: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    --resultado-bg: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
     --media-bg: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
     --white: #FFF;
     --light-blue: #CAC9FF;
@@ -27,7 +27,7 @@ body {
 
 .resultado {
     padding-block: 2.4rem;
-    background: var(--resultaso-bg);
+    background: var(--resultado-bg);
     text-align: center;
     color: var(--white);
     border-radius: 0 0 3.2rem 3.2rem;
@@ -190,11 +190,25 @@ body {
 
     .resumo {
         padding: 3.8rem 4rem;
+        border-radius: 3.2rem;
     }
 
     .resumo h2 {
         font-size: 2.4rem;
         margin-bottom: 3rem;
+    }
+
+    .resumo div {
+        font-size: 1.8rem;
+    }
+
+    .resumo button {
+        margin-top: 2.4rem;
+    }
+
+    .resumo button:hover {
+        background: var(--resultado-bg);
+        cursor: pointer;
     }
 
 
